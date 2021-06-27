@@ -17,6 +17,7 @@ public class HelloJDBC {
 	public static final String PASSWORD="123456";
 	
 	public static void main(String[]args) {
+		int a=6;
 		Connection con=null;
 		Statement stmt=null;
 		PreparedStatement pstmt=null;
