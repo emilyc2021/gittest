@@ -20,7 +20,11 @@ public class HelloJDBC {
 		String name="Emily";
 		int age=18;
 		String city="Taipei";
+<<<<<<< HEAD
 		String hobby="paint";
+=======
+		String hobby="dance";
+>>>>>>> cat
 		Connection con=null;
 		Statement stmt=null;
 		PreparedStatement pstmt=null;
