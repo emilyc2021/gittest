@@ -17,8 +17,10 @@ public class HelloJDBC {
 	public static final String PASSWORD="123456";
 	
 	public static void main(String[]args) {
-		int month=6;
-		int day=27;
+		String name="Emily";
+		int age=18;
+		String city="Taipei";
+		String hobby="dance";
 		Connection con=null;
 		Statement stmt=null;
 		PreparedStatement pstmt=null;
